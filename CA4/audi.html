@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Audi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .affix {
+            top: 0;
+            width: 100%;
+            -webkit-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+            background-color: #F44336;
+            border-color: #F44336;
+
+        }
+
+        .affix a {
+            color: #fff !important;
+            padding: 15px !important;
+            -webkit-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+        }
+
+        .affix-top a {
+            padding: 25px !important;
+        }
+
+        .affix+.container-fluid {
+            padding-top: 95px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid" style="background-color:#d13a30;color:#fff;height:200px;">
+        <h1>Audi</h1>
+        <h3>We are progress. With you.</h3>
+        <p>At Audi you'll find the right vehicle for every requirement Sporty, luxurious, or compact - at Audi you will find the right vehicle for every requirement. Discover and configure our series models now.</p>
+    </div>
+
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+        <ul class="nav navbar-nav">
+            <li><a href="#">Audi</a></li>
+            <li><a href="#">Audi A4</a></li>
+            <li><a href="#">Audi A6</a></li>
+            <li><a href="#">Audi Q5</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
+                aria-expanded="false" aria-controls="multiCollapseExample1">Audi</a>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
+                aria-expanded="false" aria-controls="multiCollapseExample2">Buy Now</button>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
+                aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Other</button>
+        </p>
+        <div class="row">
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <div class="card card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                        proident.
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                    <div class="card card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                        proident.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="height:500px">
+            Fuel economy: 18 km/l combined <br>
+            Horsepower: 140 kW <br>
+            Dimensions: 4,762 mm L x 1,847 mm W x 1,433 mm H <br>
+            Fuel tank capacity: 54 L <br>
+            Battery: 12 V lithium-ion <br>
+            Engine: 2.0 L 4-cylinder <br>
+        </div>
+    </div>
+
+</body>
+
+</html>
